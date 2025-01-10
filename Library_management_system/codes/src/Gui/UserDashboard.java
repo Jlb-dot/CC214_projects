@@ -405,7 +405,7 @@ public class UserDashboard extends JFrame {
         }
 
         JDialog profileDialog = new JDialog(this, "User Profile", true);
-        profileDialog.setSize(400, 300);
+        profileDialog.setSize(400, 450);
         profileDialog.setLocationRelativeTo(this);
 
         JPanel mainPanel = new JPanel(new BorderLayout(10, 10));
